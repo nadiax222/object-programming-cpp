@@ -8,7 +8,7 @@ private:
 	std::string dna;
 
 public:
-	void readFromFile(const std::string& filename);
+	void readFromFile(const std::string& rosalind_dna.txt);
 	std::string getSequence() const;
 };
 
