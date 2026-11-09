@@ -3,12 +3,14 @@
 
 #include "sequence.h"
 
-class DnaCounter {
+class DNACounter {
 private:
-	Sequence sequence;
+    Sequence sequence;
+
 public:
-	DNACounter(Sequence seq);
-	int countNucleotides(char nucleotide) const;
-	void pritnNucleotideCounts() const;
+    DNACounter(Sequence seq);
+    int countNucleotides(char nucleotide) const;
+    void printNucleotideCounts() const;
 };
+
 #endif
